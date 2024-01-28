@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-kuber2
+spec:
+  containers:
+  - name: app-kuber-container
+    image: masyanya101010/my_image:v2
+    ports:
+    - containerPort: 8000
